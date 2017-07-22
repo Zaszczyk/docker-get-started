@@ -4,10 +4,6 @@ LABEL maintainer MilesChou <jangconan@gmail.com>
 ENV PHALCON_VERSION=3.2.1
 ENV PHALCON_DEV_TOOLS_VERSION=3.2.0
 
-#Download sourcecode
-
-RUN git clone https://github.com/Zaszczyk/docker-get-started.git
-
 # Compile Phalcon
 #RUN set -xe && \
 #        curl -LO https://github.com/phalcon/cphalcon/archive/v${PHALCON_VERSION}.tar.gz && \
