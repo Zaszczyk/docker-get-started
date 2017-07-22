@@ -6,4 +6,4 @@ services:
     volumes:
       - ./app:/var/www/html
     ports:
-      - 5000:80
+      - 80:80
